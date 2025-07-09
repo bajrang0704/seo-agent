@@ -7,7 +7,7 @@ This project is an AI-powered keyword research tool that combines Google Gemini 
 - Enter a seed keyword and get a broad list of related queries.
 - Uses Gemini AI to generate semantically similar keywords.
 - Uses SerpApi to fetch Google autocomplete suggestions.
-- (Optionally) Fetches real search volume and competition if you have access to Google Ads API with a developer token.
+- Fetches real search volume and competition if you have access to Google Ads API with a developer token.
 - Scores and ranks keywords using a customizable formula.
 - Outputs results to a CSV file.
 
@@ -39,7 +39,7 @@ python serpapi_keyword_suggestions.py
 1. **User Input:** Enter a seed keyword.
 2. **Gemini AI:** Generates a list of related keywords.
 3. **SerpApi:** Fetches Google autocomplete suggestions for each keyword.
-4. **(Optional) Google Ads API:** If you have a Google Ads developer token and access, you can modify the script to fetch real search volume and competition for each keyword. This requires setting up a Google Ads API project and using your developer token.
+4. **(BEST ONE) Google Ads API:** If you have a Google Ads developer token and access, you can modify the script to fetch real search volume and competition for each keyword. This requires setting up a Google Ads API project and using your developer token.
 5. **Scoring:** Each keyword is scored using the formula `(search_volume * sv_weight) - (competition * comp_weight)`.
 6. **Output:** The top 50 keywords are saved to `top_keywords.csv`.
 
@@ -52,5 +52,3 @@ python serpapi_keyword_suggestions.py
 - Python 3.7+
 - `requests`, `pandas`, `google-generativeai`, `python-dotenv`
 
-## License
-MIT 
