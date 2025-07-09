@@ -1,0 +1,6 @@
+.env
+google-ads.yml
+generate_refresh_token.py
+top_keywords.csv
+__pycache__/
+*.pyc
