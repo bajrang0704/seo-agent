@@ -1,3 +1,4 @@
+GO THOUGH SEO AI AGENT PLAN .PDF
 # AI Keyword Agent
 
 This project is an AI-powered keyword research tool that combines Google Gemini (for keyword expansion) and SerpApi (for Google autocomplete suggestions) to generate and score SEO keyword ideas. It outputs the top 50 keywords to a CSV file.
